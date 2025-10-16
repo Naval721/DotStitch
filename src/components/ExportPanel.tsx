@@ -390,7 +390,7 @@ export const ExportPanel = ({ canvasRef, selectedPlayer, playerData }: ExportPan
             // Export with exact bounds and white background for JPG
             const dataURL = canvasRef.toDataURL({
                 format: 'jpeg',
-                quality: 0.95, // High quality JPG compression
+                quality: 0.98, // Ultra high quality JPG compression
                 multiplier: getQualityMultiplier(),
                 left: minX,
                 top: minY,
@@ -467,7 +467,7 @@ export const ExportPanel = ({ canvasRef, selectedPlayer, playerData }: ExportPan
             // Export with exact bounds and white background for JPG
             const dataURL = canvasRef.toDataURL({
                 format: 'jpeg',
-                quality: 0.95, // High quality JPG compression
+                quality: 0.98, // Ultra high quality JPG compression
                 multiplier: getQualityMultiplier(),
                 left: minX,
                 top: minY,
