@@ -8,6 +8,7 @@ import { AuthProvider } from "@/hooks/useAuth";
 import ErrorBoundary from "@/components/ErrorBoundary";
 import Footer from "@/components/Footer";
 import { Loader2 } from "lucide-react";
+import "@/utils/debug"; // Check environment variables
 
 // Lazy load pages for better performance
 const OnboardingPage = lazy(() => import("./pages/OnboardingPage").then(m => ({ default: m.OnboardingPage })));
